@@ -642,19 +642,21 @@ header { text-align: left; } /* PC left */
 #contents {
 	width: 95%;
 	overflow: hidden;
-	max-width: 1038px;
+	max-width: 1238px;
 	margin: 12px auto;
 }
 #contents #main {
 	float: left;			/* right menu */
 	max-width: -webkit-calc(100% - 430px);
 	max-width: calc(100% - 430px);
+	min-width: 500px;
 	margin: 0 28px 0 0;	
-	padding: 20px 48px; /* initial value 20px 64px */
+	padding: 20px 20px; /* initial value 20px 64px */
 }
 #main {
 	margin: 0;
 	padding: 0;
+	width: 80%
 }
 
   /* 768px article */
