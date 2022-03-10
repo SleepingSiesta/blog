@@ -12,7 +12,9 @@ Author URI: https://sonotato6.github.io/
 Description: original theme
 Version: 20220212
 */
-
+.InsertArticle :hover {
+	opacity: 0.6;
+  }
 .clearfix:after {
 	visibility: hidden;
 	height: 0;
