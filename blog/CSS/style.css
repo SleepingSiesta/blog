@@ -12,6 +12,10 @@ Author URI: https://sonotato6.github.io/
 Description: original theme
 Version: 20220212
 */
+
+.breadcrumb:hover {
+	opacity:0.6;
+  }
 .InsertArticle :hover {
 	opacity: 0.6;
   }
@@ -95,6 +99,8 @@ html {
 	line-height: 1.6;
 	background: #fff;
 	color: #333;
+	scroll-behavior: smooth;
+
 }
 body {margin: 0;padding: 0;}
 
